@@ -1,0 +1,28 @@
+.cta {
+  padding: var(--space-xl) 0;
+  border-top: 1px solid var(--black);
+  h2 {
+    font-weight: 500;
+    margin-bottom: var(--space-md);
+    @media (min-width: $tablet) {
+      margin-bottom: var(--space-xs);
+    }
+  }
+}
+.cta__buttons {
+  @media (min-width: 550px) {
+    display: flex;
+  }
+  .button {
+    margin-bottom: var(--space-sm);
+    @media (min-width: 550px) {
+      margin: 0 var(--space-sm) 0 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+      @media (min-width: 550px) {
+        margin: 0;
+      }
+    }
+  }
+}

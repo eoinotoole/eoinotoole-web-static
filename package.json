@@ -1,0 +1,33 @@
+{
+  "name": "eoinotoole-web-static",
+  "version": "1.0.0",
+  "description": "eoinotoole.com static landing page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eoinotoole/eoinotoole-web-static.git"
+  },
+  "author": "Eoin O'Toole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eoinotoole/eoinotoole-web-static/issues"
+  },
+  "homepage": "https://github.com/eoinotoole/eoinotoole-web-static#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "sass-loader": "^7.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1"
+  }
+}
