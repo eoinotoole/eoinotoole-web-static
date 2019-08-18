@@ -32,5 +32,5 @@ module.exports = {
     extensions: [".js", ".scss"]
   },
   plugins: [new MiniCSSExtractPlugin()],
-  watch: true
+  watch: isDev
 };
