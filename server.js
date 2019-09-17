@@ -5,8 +5,8 @@ const devEnv = process.env.NODE_ENV === "development";
 const port = process.env.PORT || 3000;
 
 app.get("*", (req, res, next) => {
-  console.log(req.protocol);
-  if (!devEnv && req.header["x-forwarded-proto"] === "http") {
+  console.log(req.headers["x-forwarded-proto"]);
+  if (!devEnv && req.headers["x-forwarded-proto"] !== "https") {
     res.redirect(`https://${req.headers.host}${req.url}`);
   } else {
     console.log("nope");
