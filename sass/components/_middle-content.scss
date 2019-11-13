@@ -1,0 +1,23 @@
+.middle-content {
+  padding: var(--space-xxl) 0 var(--space-xxl);
+
+  .wrapper {
+    display: flex;
+  }
+
+  p {
+    max-width: 500px;
+    margin-left: auto;
+
+    a {
+      font-weight: bold;
+    }
+  }
+}
+
+.bumble {
+  color: #f8c834;
+}
+.badoo {
+  color: #783cf9;
+}

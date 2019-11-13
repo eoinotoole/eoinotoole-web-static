@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   padding: var(--space-xxl) 0 0;
+  margin-top: var(--space-lg);
   background: var(--black);
   border-bottom: 7px solid #fff;
 }
@@ -10,7 +11,7 @@
   text-align: center;
 }
 .footer__email {
-  display: block;
+  display: inline-block;
   font-size: calc(var(--text-md) * 1.2);
   color: #fff;
   margin-bottom: var(--space-sm);

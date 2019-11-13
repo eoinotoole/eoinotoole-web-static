@@ -1,5 +1,6 @@
 const path = require("path");
 const express = require("express");
+require("dotenv").config();
 const app = express();
 const devEnv = process.env.NODE_ENV === "development";
 const port = process.env.PORT || 3000;

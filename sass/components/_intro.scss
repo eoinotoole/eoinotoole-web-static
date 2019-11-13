@@ -1,8 +1,17 @@
+.intro-wrap {
+  background: var(--bgBlue);
+}
 .intro {
+  padding: var(--space-lg) 0 var(--space-xl);
+  margin: 0 auto;
+  @media (min-width: $desktop) {
+    max-width: 1120px;
+  }
   h1 {
     display: none;
   }
   p {
     font-size: var(--text-xl);
+    margin-bottom: 0;
   }
 }
