@@ -1,5 +1,8 @@
 .middle-content {
-  padding: var(--space-xxl) 0 var(--space-xxl);
+  padding: var(--space-xl) 0;
+  @media (min-width: var(--tablet)) {
+    padding: var(--space-xxl) 0 var(--space-xxl);
+  }
 
   .wrapper {
     display: flex;

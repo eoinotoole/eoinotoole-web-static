@@ -341,7 +341,7 @@ ol {
   --black: #000;
   --green: #14ba88;
   --yellow: #dde047;
-  --blue: #b0c5e9;
+  --blue: #2196f3;
   --bgYellow: #feffd1;
   --bgBlue: #eaf2ff; }
 
@@ -479,7 +479,7 @@ a {
   background: var(--bgBlue); }
 
 .intro {
-  padding: var(--space-lg) 0 var(--space-xl);
+  padding: var(--space-xl) 0;
   margin: 0 auto; }
   @media (min-width: 1024px) {
     .intro {
@@ -487,11 +487,14 @@ a {
   .intro h1 {
     display: none; }
   .intro p {
-    font-size: var(--text-xl);
+    font-size: var(--text-lg);
     margin-bottom: 0; }
 
 .middle-content {
-  padding: var(--space-xxl) 0 var(--space-xxl); }
+  padding: var(--space-xl) 0; }
+  @media (min-width: var(--tablet)) {
+    .middle-content {
+      padding: var(--space-xxl) 0 var(--space-xxl); } }
   .middle-content .wrapper {
     display: flex; }
   .middle-content p {
