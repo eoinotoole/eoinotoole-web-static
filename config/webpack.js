@@ -1,6 +1,5 @@
 // STYLES
-require("normalize.css");
-require("../src/scss");
+require("../src/scss/main.scss");
 
 // JS
 
